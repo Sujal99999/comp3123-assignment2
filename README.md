@@ -12,49 +12,22 @@ This project is a full-stack application developed to manage employees using a *
 
 ---
 
-## **Folder Structure**
-```
-COMP3123_Assignment2_Submission/
-│
-├── app.js               # Entry point for the backend application
-├── package.json         # Backend dependencies
-├── package-lock.json    # Lock file for backend dependencies
-├── README.md            # Documentation
-├── Postman_Collection.json  # Postman collection for API testing
-│
-├── routes/              # Backend API routes
-│   ├── employeeRoutes.js
-│
-├── models/              # MongoDB models for the backend
-│   ├── Employee.js
-│
-├── frontend/            # Frontend files for the project
-│   ├── index.html       # Main HTML file
-│   ├── style.css        # Styling for the frontend
-│   ├── script.js        # JavaScript for handling frontend interactions
-```
-
----
-
-## **Backend Setup**
+## **Backend **
 ### Step 1: Install Dependencies
-Navigate to the project folder and run:
 ```bash
 npm install
 ```
 
-### Step 2: Start MongoDB
-Ensure MongoDB is running on your system. If installed locally, you can start it with:
+Start MongoDB
 ```bash
 mongod
 ```
 
-### Step 3: Start the Server
+Start the Server
 Run the application:
 ```bash
 node app.js
 ```
-You should see:
 ```
 Server running on port 3000
 Connected to MongoDB
@@ -62,12 +35,11 @@ Connected to MongoDB
 
 ---
 
-## **Frontend Setup**
-### Step 1: Open the `frontend` folder
-Double-click on `index.html` to open it in your default web browser.
-
-### Step 2: Test CRUD Operations
-1. Use the form to add new employees.
+## **Frontend **
+the `frontend` folder
+on `index.html` to open it in your default web browser.
+CRUD Operations
+1. add new employees.
 2. View the list of employees dynamically.
 3. Use Postman to test advanced operations like updating or deleting an employee.
 
